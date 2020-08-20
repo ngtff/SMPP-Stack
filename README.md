@@ -1,6 +1,8 @@
 # SMPP_CLUSTER
 smpp cluster, handles hundreds of esme connections and huge traffic load 
 
+<image src="smppcluster.png" />
+
 The SMPP Cluster is combination of SMPP Cluster Application + SMPP Agents
 
 SMSC Server connected to one or multiple SMPP Cluster Application, either Active or standby from SMSC point of view
