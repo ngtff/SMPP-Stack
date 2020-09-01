@@ -9,7 +9,7 @@ The NGTFF smpp stack manages sessions and session operations (bind/enquire-link)
 
 Circular buffer will be used for allocating and freeing up messages, which will boost performance of stack and application.
 
- 
+ <image src="smpp_routing_entity.png" />
 
 
 
