@@ -2,15 +2,18 @@
 
 NGTFF smpp stack, handles large no of esme sessions with huge traffic load, and has internal implementation of SMPP Routing Entity.
 
-Supports SMPP 5.0 version
-
 ### High Lights
+
+* SMPP 5.0 version.
+* Handles Many ESME (TCP/IP) Connections.
+* Auto Scale Up.
 * Asynchronous processing. 
-* SMPP Routing Entity
-* Circular Buffer
-* Stack Handles SMPP Binding Operations
-* ESME Session Handling
-* 3000 Messages Per Second
+* SMPP Routing Entity.
+* Circular Buffers.
+* Handles SMPP Binding Operations.
+* ESME Session Management.
+* Handles 3000 Messages Per Second.
+
 
 
 ### P2A Messages
