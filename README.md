@@ -31,7 +31,7 @@ Circular buffer will be used for allocating and freeing up messages, which will 
  <image src="smpp_routing_entity.png" />
 
 
-
+please contact ngtff@hotmail.com
 
 
  
