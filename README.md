@@ -1,5 +1,5 @@
-# SMPP_CLUSTER
-smpp cluster, handles hundreds of esme connections and huge traffic load 
+# SMPP Stack
+smpp Stack, handles large no of esme sessions with huge traffic load 
 
 <image src="smppcluster.png" />
 
