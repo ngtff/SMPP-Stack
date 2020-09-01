@@ -2,6 +2,8 @@
 
 NGTFF smpp stack, handles large no of esme sessions with huge traffic load, and has internal implementation of SMPP Routing Entity.
 
+Supports SMPP 5.0 version
+
 #### P2A Messages
 
 MC devlivers deliver-sm to any of SMPP Nodes, ** SMPP Routing Entity ** inside NGTFF smpp stack routes to Peer SMPP and delivers message to Target EMSE. 
