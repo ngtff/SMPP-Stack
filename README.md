@@ -6,7 +6,7 @@ Supports SMPP 5.0 version
 
 #### P2A Messages
 
-MC devlivers deliver-sm to any of SMPP Nodes, ** SMPP Routing Entity ** inside NGTFF smpp stack routes to Peer SMPP and delivers message to Target EMSE. 
+MC devlivers deliver-sm to any of SMPP Nodes, **SMPP Routing Entity** inside NGTFF smpp stack routes to Peer SMPP and delivers message to Target EMSE. 
 
 <image src="smpp_stack.png" />
 
