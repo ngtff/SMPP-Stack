@@ -4,7 +4,7 @@ NGTFF smpp stack, handles large no of esme sessions with huge traffic load, and 
 
 Supports SMPP 5.0 version
 
-##### High Lights
+### High Lights
 * Asynchronous processing. 
 * SMPP Routing Entity
 * Circular Buffer
@@ -13,7 +13,7 @@ Supports SMPP 5.0 version
 * 3000 Messages Per Second
 
 
-#### P2A Messages
+### P2A Messages
 
 MC devlivers deliver-sm to any of SMPP Nodes, **SMPP Routing Entity** inside NGTFF smpp stack routes to Peer SMPP and delivers message to Target EMSE. 
 
