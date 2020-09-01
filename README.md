@@ -8,7 +8,7 @@ Supports SMPP 5.0 version
 * Asynchronous processing. 
 * SMPP Routing Entity
 * Circular Buffer
-* Handles SMPP Binding Operations
+* Stack Handles SMPP Binding Operations
 * ESME Session Handling
 * 3000 Messages Per Second
 
