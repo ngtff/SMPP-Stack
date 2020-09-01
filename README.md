@@ -1,5 +1,11 @@
 # NGTFF SMPP Stack
-NGTFF smpp stack, handles large no of esme sessions with huge traffic load 
+
+NGTFF smpp stack, handles large no of esme sessions with huge traffic load, and has internal implementation of SMPP Routing Entity.
+
+<u>A2P Messages</u>
+
+
+
 
 <image src="smpp_stack.png" />
 
