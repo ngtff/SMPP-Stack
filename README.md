@@ -5,9 +5,15 @@ NGTFF smpp stack, handles large no of esme sessions with huge traffic load
 
 NGTFF SMPP Stack has been developed in Linux C.
 
-The NGTFF smpp stack manages sessions with configured ESME.
+The NGTFF smpp stack manages sessions and session operations (bind/enquire-link) internally., an callback event will raised to application for authenticating ESME.
 
-The NGTFF smpp stack handles bindings operations internally, and send received sm messages to user application for further processing.
+Circular buffer will be used for allocating and freeing up messages, which will boost performance of stack and application.
+
+ 
+
+
+
+
 
  
 
