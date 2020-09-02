@@ -32,6 +32,10 @@ The Test Application - ESMEClient, Establishes 500 bind request with SMPP (only 
 
 NGTFF smpp stack, increases its processing threads and memory, to handle and support growing traffic. 
 
+### Asynchronous processing
+
+NGTFF smpp stack, process sm messages asynchronous to support huge traffic.
+
 
 ### SMPP Routing Entity
 
