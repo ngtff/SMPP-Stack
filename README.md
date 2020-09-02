@@ -14,11 +14,17 @@ NGTFF smpp stack, internal implementation of SMPP Routing Entity.
 * Circular Buffers.
 * Handles SMPP Binding Operations.
 * ESME Session Management.
-* Handles 3000 Messages Per Second.
+* Handles 5000 Messages Per Second.
+
+### Handles Many ESME (TCP/IP Client) Connections
+
+The Test Application - ESMEClient, Establishes 500 bind request with SMPP (only for connection capability demonstration), and each connection sends 10 requests per second.  
+
 
 ### SMPP Routing Entity
 
-When deployed mutiple instances of SMPP, **SMPP Routing Entiry** Maintains EMSE Session context across multiple instances of SMPP.
+When deployed mutiple instances of SMPP, **SMPP Routing Entity** Maintains EMSE Session context across multiple instances of SMPP.
+
 Lets Message Center deliver sm message to any SMPP instance, the sm message will routed to target ESME.
 
 
