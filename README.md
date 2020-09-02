@@ -1,6 +1,6 @@
 # NGTFF SMPP Stack
 
-NGTFF smpp stack, implemented in Linux C.
+NGTFF smpp stack, developed in Linux C.
 
 NGTFF smpp stack, provides application programming interface to send and receive sm messages from ESME clients.
 
@@ -50,11 +50,9 @@ Lets Message Center deliver sm message to any SMPP instance, the sm message will
 
 <image src="smpp_stack.png" />
 
-NGTFF SMPP Stack has been developed in Linux C.
-
 The NGTFF smpp stack manages sessions and session operations (bind/enquire-link) internally., an callback event will raised to application for authenticating ESME.
 
-Circular buffer will be used for allocating and freeing up messages, which will boost performance of stack and application.
+Circular buffer has been used for allocating and freeing up messages, which will boost performance of stack and user smpp application.
 
  <image src="smpp_routing_entity.png" />
 
