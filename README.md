@@ -1,8 +1,11 @@
 # NGTFF SMPP Stack
 
 NGTFF smpp stack, provides application programming interface to send and receive sm messages from ESME clients.
+
 NGTFF smpp stack, handles large no of esme sessions (client connections) with huge traffic load.
+
 NGTFF smpp stack, internal implementation of SMPP Routing Entity.  
+
 
 ### High Lights
 
@@ -16,9 +19,18 @@ NGTFF smpp stack, internal implementation of SMPP Routing Entity.
 * ESME Session Management.
 * Handles 5000 Messages Per Second.
 
+### SMPP 5.0 version.
+
+NGTFF smpp stack, implements latest version of SMPP.
+
+
 ### Handles Many ESME (TCP/IP Client) Connections
 
 The Test Application - ESMEClient, Establishes 500 bind request with SMPP (only for connection capability demonstration), and each connection sends 10 requests per second.  
+
+### Auto Scale Up.
+
+NGTFF smpp stack, increases its processing threads and memory, to handle and support growing traffic. 
 
 
 ### SMPP Routing Entity
