@@ -1,5 +1,7 @@
 # NGTFF SMPP Stack
 
+NGTFF smpp stack, implemented in Linux C.
+
 NGTFF smpp stack, provides application programming interface to send and receive sm messages from ESME clients.
 
 NGTFF smpp stack, handles large no of esme sessions (client connections) with huge traffic load.
